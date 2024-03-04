@@ -36,7 +36,7 @@ jobs:
 
       - name: Build with Gradle
         shell: bash
-        run: ./gradlew assembleCanary
+        run: ./gradlew assembleDebug
 
       - name: Upload to Release Action
         uses: Shopify/upload-to-release@v1.0.1
